@@ -1,138 +1,211 @@
 {
-  "interactionModel": {
-      "languageModel": {
-          "invocationName": "hello cisco",
-          "intents": [
-              {
-                  "name": "AMAZON.CancelIntent",
-                  "samples": []
-              },
-              {
-                  "name": "AMAZON.HelpIntent",
-                  "samples": []
-              },
-              {
-                  "name": "AMAZON.StopIntent",
-                  "samples": []
-              },
-              {
-                  "name": "guestnetOFF",
-                  "slots": [],
-                  "samples": [
-                      "guest network OFF",
-                      "guest wifi off",
-                      "disable guest network",
-                      "disable guest wifi"
-                  ]
-              },
-              {
-                  "name": "guestnetON",
-                  "slots": [],
-                  "samples": [
-                      "guest network on",
-                      "guest wifi on",
-                      "enable guest wifi",
-                      "enable guest network"
-                  ]
-              },
-              {
-                  "name": "guestnetPASSWORD",
-                  "slots": [],
-                  "samples": [
-                      "get me Guest password",
-                      "Guest net password",
-                      "what is the guest network password",
-                      "password for Guest Network",
-                      "password for Guest WiFi"
-                  ]
-              },
-              {
-                  "name": "guestnetREKEY",
-                  "slots": [],
-                  "samples": [
-                      "generate new password ",
-                      "Guest network NEW password",
-                      "Create new Password",
-                      "Brand new day"
-                  ]
-              },
-              {
-                  "name": "guestnetSTATUS",
-                  "slots": [],
-                  "samples": [
-                      "guest network status",
-                      "guest wifi status"
-                  ]
-              }
-          ],
-          "types": [
-              {
-                  "name": "endis",
-                  "values": [
-                      {
-                          "name": {
-                              "value": "enable"
-                          }
-                      },
-                      {
-                          "name": {
-                              "value": "disable"
-                          }
-                      }
-                  ]
-              },
-              {
-                  "name": "Name",
-                  "values": [
-                      {
-                          "name": {
-                              "value": "All"
-                          }
-                      },
-                      {
-                          "name": {
-                              "value": "HomeNet"
-                          }
-                      },
-                      {
-                          "name": {
-                              "value": "Guest"
-                          }
-                      },
-                      {
-                          "name": {
-                              "value": "WorkNet"
-                          }
-                      },
-                      {
-                          "name": {
-                              "value": "onoff"
-                          }
-                      }
-                  ]
-              },
-              {
-                  "name": "onoff",
-                  "values": [
-                      {
-                          "name": {
-                              "value": "ON",
-                              "synonyms": [
-                                  "turn on"
-                              ]
-                          }
-                      },
-                      {
-                          "name": {
-                              "value": "OFF",
-                              "synonyms": [
-                                  "turn off"
-                              ]
-                          }
-                      }
-                  ]
-              }
-          ]
-      }
-  }
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "ping my network",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "thanks",
+                        "allright"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "thank you",
+                        "that's all",
+                        "thank you APIs"
+                    ]
+                },
+                {
+                    "name": "guestnetOFF",
+                    "slots": [],
+                    "samples": [
+                        "guest network OFF",
+                        "guest wifi off",
+                        "disable guest network",
+                        "disable guest wifi",
+                        "turn guest wifi off"
+                    ]
+                },
+                {
+                    "name": "guestnetON",
+                    "slots": [],
+                    "samples": [
+                        "guest network on",
+                        "guest wifi on",
+                        "enable guest wifi",
+                        "enable guest network",
+                        "turn guest wifi on"
+                    ]
+                },
+                {
+                    "name": "guestnetPASSWORD",
+                    "slots": [],
+                    "samples": [
+                        "get me Guest password",
+                        "Guest net password",
+                        "what is the guest network password",
+                        "password for Guest Network",
+                        "password for Guest WiFi"
+                    ]
+                },
+                {
+                    "name": "guestnetDEVICES",
+                    "slots": [],
+                    "samples": [
+                        "how many devices",
+                        "is somebody connected",
+                        "what is the number of devices connected",
+                        "is there any devices connected",
+                        "how many devices are connected",
+                        "how many clients are connected",
+                        "how many clients are currently connected",
+                        "how many clients are online",
+                        "how many clients are currently online",
+                        "how many devices are connected",
+                        "how many devices are currently connected",
+                        "how many devices are online",
+                        "how many devices are currently online",
+                        "how many client devices are connected",
+                        "how many client devices are currently connected",
+                        "how many client devices are online",
+                        "how many client devices are currently online"
+                    ]
+                },
+                {
+                    "name": "guestnetSTATUS",
+                    "slots": [],
+                    "samples": [
+                        "guest network status",
+                        "guest wifi status",
+                        "what is the status of the guest network",
+                        "what is the status of the guest wifi"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "guestnetTRAFFIC",
+                    "slots": [],
+                    "samples": [
+                        "why is everything slow",
+                        "what is the usage traffic",
+                        "slow",
+                        "why is the internet slow",
+                        "why internet slow",
+                        "why internet so slow",
+                        "why is the internet slow",
+                        "why the internet is slow",
+                        "why's the internet slow",
+                        "why is the internet so slow",
+                        "why the internet is so slow",
+                        "why's the internet so slow",
+                        "what's going on with the network",
+                        "what's going on with my network",
+                        "what is going on with the network",
+                        "what is going on with my network"
+                        ]
+                },
+                {
+                    "name": "roadmap",
+                    "slots": [],
+                    "samples": [
+                        "what can we expect in the future",
+                        "roadmap",
+                        "what is in the roadmap",
+                        "get roadmap",
+                        "get the roadmap",
+                        "what's the roadmap",
+                        "what's on the roadmap",
+                        "what is the roadmap",
+                        "what is on the roadmap",
+                        "check roadmap",
+                        "check the roadmap",
+                        "what's coming",
+                        "what is coming",
+                        "what's coming on the roadmap",
+                        "what is coming on the roadmap",
+                        "what's coming in the future",
+                        "what is coming in the future"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "endis",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "enable"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "disable"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Name",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "All"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "HomeNet"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Guest"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "WorkNet"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "onoff"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "onoff",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "ON",
+                                "synonyms": [
+                                    "turn on"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "OFF",
+                                "synonyms": [
+                                    "turn off"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
 }
