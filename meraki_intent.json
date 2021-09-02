@@ -51,7 +51,9 @@
                         "get me Guest password",
                         "Guest net password",
                         "what is the guest network password",
+                        "what is the guest wifi password",
                         "password for Guest Network",
+                        "tell the password to our guests",
                         "password for Guest WiFi"
                     ]
                 },
