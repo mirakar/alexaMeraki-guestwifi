@@ -65,13 +65,10 @@
                         "is somebody connected",
                         "what is the number of devices connected",
                         "is there any devices connected",
-                        "how many devices are connected",
                         "how many clients are connected",
                         "how many clients are currently connected",
                         "how many clients are online",
                         "how many clients are currently online",
-                        "how many devices are connected",
-                        "how many devices are currently connected",
                         "how many devices are online",
                         "how many devices are currently online",
                         "how many client devices are connected",
@@ -101,10 +98,8 @@
                         "why is everything slow",
                         "what is the usage traffic",
                         "slow",
-                        "why is the internet slow",
                         "why internet slow",
                         "why internet so slow",
-                        "why is the internet slow",
                         "why the internet is slow",
                         "why's the internet slow",
                         "why is the internet so slow",
@@ -114,7 +109,7 @@
                         "what's going on with my network",
                         "what is going on with the network",
                         "what is going on with my network"
-                        ]
+                    ]
                 },
                 {
                     "name": "roadmap",
