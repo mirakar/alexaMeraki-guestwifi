@@ -63,7 +63,7 @@ General instructions:
   - close intent
 
 Try it yourself:
-- Alexa, ping my netowrk
+- Alexa, ping my network
   - Turn the guest WiFi on/off
   - What is the Guest WiFi password?
   - Is somebody connected
@@ -76,10 +76,11 @@ Try it yourself:
 
 - DevNet Learning lab | [Use Alexa to configure Meraki guest network](https://developer.cisco.com/learning/lab/Meraki_Alexa/step/1)
 - DevNet Meraki Develper Hub | [Dashboard with Alexa](https://developer.cisco.com/meraki/build/meraki-dashboard-with-alexa/)
-- Youtube
-- Presentation 
+- Youtube | [Meraki and Alexa Integration tutorial](https://youtu.be/WIJz2TkY4KE)
+- Presentation | [Meraki and Alexa Integration](Meraki%20and%20Alexa.pptx)
 
 ### Credits
 
-This is from Guzmán Monné :copyright: 2017 by Guzmán Monné. License MIT, see LICENSE for more details.
+Created by Guzmán Monné :copyright: 2017 by Guzmán Monné. License MIT, see LICENSE for more details.
+This version of code was created and modified by Mitja Rakar :copyright: 2021.
 
