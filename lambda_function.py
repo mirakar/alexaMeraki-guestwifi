@@ -188,16 +188,6 @@ class GuestNetwork:
         self.net_id             = net_id
         self.ssid               = ssid
 
-    def getdevices(self):
-        
-        url = "https://api.meraki.com/api/v0/networks/" + self.net_id + "/clients"
-        headers = {
-                    "Content-Type": "application/json",
-                    "Accept": "application/json",
-                    "X-Cisco-Meraki-API-Key": self.meraki_apikey
-                    }
-        response = requests.request('GET', url, headers=headers)
-        return response.json() 
         
         #enable the guest Wi-FI
     def enable(self):
@@ -252,6 +242,17 @@ class GuestNetwork:
             speech_output = "Guest Wi-Fi is disabled!"
         print(speech_output)
         return build_response(session_attributes, build_speechlet_response(card_title, speech_output, reprompt_text, False))
+     
+    def getdevices(self):
+        
+        url = "https://api.meraki.com/api/v0/networks/" + self.net_id + "/clients"
+        headers = {
+                    "Content-Type": "application/json",
+                    "Accept": "application/json",
+                    "X-Cisco-Meraki-API-Key": self.meraki_apikey
+                    }
+        response = requests.request('GET', url, headers=headers)
+        return response.json()    
      
         #check the number of devices that are connected on the guest Wi-Fi
     def numdevices(self):
