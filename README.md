@@ -32,7 +32,7 @@ Finally there is the lambda_function.py which is the actual function. This file 
 ## Download lambda function and ZIP files
 
 Save all the files in this repository.
-On your local machine, navigate to the function code directory and create a ZIP package.
+On your local machine, navigate to the function code directory and create a ZIP package. The PPT can be omitted. 
 
 MacOS commands:
 
@@ -77,7 +77,7 @@ Try it yourself:
 - DevNet Learning lab | [Use Alexa to configure Meraki guest network](https://developer.cisco.com/learning/lab/Meraki_Alexa/step/1)
 - DevNet Meraki Develper Hub | [Dashboard with Alexa](https://developer.cisco.com/meraki/build/meraki-dashboard-with-alexa/)
 - Youtube
-- Presentation
+- Presentation 
 
 ### Credits
 
