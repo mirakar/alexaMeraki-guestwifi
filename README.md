@@ -1,4 +1,4 @@
-# Alexa Meraki Lamba Function Package 
+# Manage your Cisco Meraki Gest Wi-Fi with Amazon Alexa
 
 This repo contains many packages that are required in order to create the upload package(.ZIP) for Amazon Lambda.
 
