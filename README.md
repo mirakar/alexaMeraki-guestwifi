@@ -22,10 +22,10 @@ Finally there is the lambda_function.py which is the actual function. This file 
 
 |  Variable  |  Description  |  Where you find it in the Meraki Dashboard  |
 |  ---  |  ---  |  ---  |
-| **MERAKI_API_KEY** | Meraki dashboard API | [your email] > My profile > *API access** |
-| **MERAKI_ORG_NAME** | name of the organization | Organizations > Settings > *Name* |
-| **MERAKI_NET_NAME** | name of the network | Network-wide > General > *Network name* |
-| **MERAKI_SSID_NAME** | SSID of the guest WiFi | Wireless > SSIDs > *Guest SSID name* |
+| **```MERAKI_API_KEY```** | Meraki dashboard API | [your email] > My profile > *API access** |
+| **```MERAKI_ORG_NAME```** | name of the organization | Organizations > Settings > *Name* |
+| **```MERAKI_NET_NAME```** | name of the network | Network-wide > General > *Network name* |
+| **```MERAKI_SSID_NAME```** | SSID of the guest WiFi | Wireless > SSIDs > *Guest SSID name* |
 
 *If you don’t have the token, create one with *Generate new API Key* and save it securely.
 
