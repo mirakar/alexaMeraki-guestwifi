@@ -235,7 +235,7 @@ class GuestNetwork:
             speech_output = "There is no password for this Guest Wi-Fi. Just connect, click through the splash page and enjoy!"
         else:
             speech_output = "The password for {0} - is {1}".format(str(self.ssid['name']),  self.ssid['psk'])
-        should_end_session = True
+        should_end_session = False
         return build_response(session_attributes, build_speechlet_response(
             card_title, speech_output, reprompt_text, should_end_session))
 
